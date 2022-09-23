@@ -24,6 +24,53 @@
     color: #333;
 }
 
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 25px;
+}
+
+.sociocons {
+    margin-left: 150px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+.fa-quora {
+    background: #a82400;
+    color: white;
+}
+
+
+
+.fa-github {
+    background: rgb(29, 28, 28);
+    color: white;
+}
+
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
