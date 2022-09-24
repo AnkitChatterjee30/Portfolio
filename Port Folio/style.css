@@ -488,6 +488,18 @@ header .navbar ul li a:hover {
     }
 
 }
+@media(max-width:370px){
+    #contact .sociocons{
+        display: contents;
+    }
+    #contact .sociocons .fa{
+        width: 45px;
+        padding: 12px;
+        font-size: 18px;
+        color: azure;
+        margin-right: -5px;
+    }
+}
 
 @media (max-width:400px) {
 
