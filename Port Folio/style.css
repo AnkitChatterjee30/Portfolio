@@ -15,6 +15,11 @@
     transition: all .2s linear;
 }
 
+.vl {
+    border-left: 3px solid azure;
+    height: 500px;
+}
+
 .auto-type {
     color: skyblue;
 }
@@ -336,8 +341,8 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     flex-wrap: wrap;
     padding: 2rem 0;
 }
@@ -355,6 +360,45 @@ header .navbar ul li a:hover {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+.banking,
+.coffee,
+.multiple {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
+
+.banking {
+    margin-left: 20px;
+    width: 20%;
+    margin-top: 250px;
+}
+
+.multiple {
+    margin-left: 380px;
+    width: 20%;
+    margin-top: 250px;
+}
+
+.coffee {
+    margin-left: 750px;
+    width: 20%;
+    margin-top: 250px;
+}
+
+.coffee a {
+    color: yellow;
+}
+
+.coffee b,
+.multiple b,
+.banking b {
+    text-decoration: underline;
+    color: thistle;
+    font-weight: 800;
 }
 
 .portfolio .box-container .box:hover img {
@@ -429,11 +473,97 @@ header .navbar ul li a:hover {
     display: none;
 }
 
+.ula {
+    margin-right: 50px;
+}
+
+.lia {
+    display: inline-block;
+    margin-right: 100px;
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+.lib {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.lic {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.lid {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.lie {
+    display: inline-block;
+    margin-right: 100px;
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+.lif {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.lig {
+    display: inline-block;
+    margin-right: 100px;
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+.lih {
+    display: inline-block;
+    margin-right: 0px;
+    filter: drop-shadow(1px 1px 1px white);
+}
 
 
+.imgpython {
+    width: 200px;
+    height: 200px;
+}
+
+.imgjava {
+    width: 160px;
+    height: 200px;
+}
+
+.imgflask {
+    width: 220px;
+    height: 170px;
+    margin-top: -100px;
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+.imghtml {
+    width: 200px;
+    height: 200px;
+}
+
+.imgcss {
+    width: 200px;
+    height: 200px;
+}
 
 
+.imgjavascript {
+    width: 200px;
+    height: 200px;
+}
 
+.imgDS {
+    width: 200px;
+    height: 120px;
+}
+
+.imgboot {
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -488,17 +618,50 @@ header .navbar ul li a:hover {
     }
 
 }
-@media(max-width:370px){
-    #contact .sociocons{
+
+@media(max-width:370px) {
+    #contact .sociocons {
         display: contents;
     }
-    #contact .sociocons .fa{
+
+    #contact .sociocons .fa {
         width: 45px;
         padding: 12px;
         font-size: 18px;
         color: azure;
-        margin-right: -5px;
+        margin-right: -10px;
     }
+
+    .vl {
+        display: none;
+    }
+
+    .portfolio .box-container .box {
+        margin-bottom: 250px;
+    }
+
+    .banking {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+
+    .multiple {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 665px;
+    }
+
+    .coffee {
+        width: 80%;
+        margin-top: 1150px;
+        margin-left: 20px;
+    }
+
+    .portfolio {
+        margin-bottom: 100px;
+    }
+
 }
 
 @media (max-width:400px) {
@@ -527,6 +690,82 @@ header .navbar ul li a:hover {
         margin: 3rem 0;
     }
 
+
+    .imgpython {
+        position: absolute;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        margin-left: -40px;
+
+    }
+
+    .imgjava {
+        position: absolute;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+
+
+    }
+
+    .imgflask {
+        position: absolute;
+        display: inline-block;
+        width: 120px;
+        height: 80px;
+        margin-top: 150px;
+        margin-left: -120px;
+    }
+
+    .imgDS {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        margin-top: 150px;
+        margin-left: -80px;
+    }
+
+    .imghtml {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        margin-top: 180px;
+        margin-left: -80px;
+    }
+
+    .imgcss {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        margin-top: 180px;
+        margin-left: -50px;
+    }
+
+    .imgboot {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: -180px;
+    }
+
+    .imgjavascript {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        margin-top: 320px;
+        margin-left: -150px;
+    }
+
+    .skills {
+        margin-bottom: 250px;
+    }
+
 }
 
 .cont {
@@ -543,6 +782,7 @@ header .navbar ul li a:hover {
     color: white;
     font-size: 2rem;
 }
+
 
 .htmp {
     width: 90%;
