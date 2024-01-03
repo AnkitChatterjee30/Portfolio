@@ -373,19 +373,20 @@ header .navbar ul li a:hover {
 
 .banking {
     margin-left: 20px;
-    width: 20%;
+    height: 100%;
+    width: 340px;
     margin-top: 250px;
 }
 
 .multiple {
     margin-left: 380px;
-    width: 20%;
+    width: 340px;
     margin-top: 250px;
 }
 
 .coffee {
     margin-left: 750px;
-    width: 20%;
+    width: 340px;
     margin-top: 250px;
 }
 
@@ -683,7 +684,7 @@ header .navbar ul li a:hover {
     .multiple {
         width: 80%;
         margin-left: 40px;
-        margin-top: 665px;
+        margin-top: 673px;
     }
 
     .coffee {
