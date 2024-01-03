@@ -665,6 +665,37 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width:400px) {
+    
+    .vl {
+        display: none;
+    }
+
+    .portfolio .box-container .box {
+        margin-bottom: 250px;
+    }
+
+    .banking {
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+
+    .multiple {
+        width: 80%;
+        margin-left: 40px;
+        margin-top: 665px;
+    }
+
+    .coffee {
+        width: 80%;
+        margin-top: 1150px;
+        margin-left: 40px;
+    }
+
+    .portfolio {
+        margin-bottom: 100px;
+    }
+
 
     header {
         width: 100vw;
