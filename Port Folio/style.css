@@ -20,6 +20,11 @@
     height: 500px;
 }
 
+a .fa-phone{
+    color: azure;
+    font-size: 10px;
+    background-color: green;
+}
 .fa-phone{
     color: azure;
     font-size: 10px;
