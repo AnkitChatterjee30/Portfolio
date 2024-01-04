@@ -20,16 +20,18 @@
     height: 500px;
 }
 
-a .fa-phone{
+a .fa-phone {
     color: azure;
     font-size: 10px;
     background-color: green;
 }
-.fa-phone{
+
+.fa-phone {
     color: azure;
     font-size: 10px;
     background-color: green;
 }
+
 .auto-type {
     color: skyblue;
 }
@@ -49,7 +51,7 @@ a .fa-phone{
 }
 
 .sociocons {
-    margin-left: 150px;
+    margin-left: 0px;
 }
 
 .fa:hover {
@@ -683,7 +685,7 @@ p a {
     }
 
     #contact .sociocons {
-        display:inline-block;
+        display: inline-block;
     }
 
     header .navbar {
