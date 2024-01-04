@@ -36,3 +36,9 @@ $(document).ready(function () {
     });
 
 });
+
+$(document).ready(function() {
+    var numitems =  $(".ula li").length;
+    
+    $("ul.ula").css("column-count",Math.round(numitems/2));
+    });
