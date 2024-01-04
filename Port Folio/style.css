@@ -20,6 +20,11 @@
     height: 500px;
 }
 
+.fa-phone{
+    color: azure;
+    font-size: 10px;
+    background-color: green;
+}
 .auto-type {
     color: skyblue;
 }
@@ -673,7 +678,7 @@ p a {
     }
 
     #contact .sociocons {
-        display: contents;
+        display:inline-block;
     }
 
     header .navbar {
