@@ -678,6 +678,17 @@ p a {
 }
 
 @media (max-width:768px) {
+    header {
+        width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
 
     html {
         font-size: 50%;
@@ -686,6 +697,18 @@ p a {
 }
 
 @media(max-width:370px) {
+    header {
+        width: 100vw;
+    }
+
+    .heading {
+        margin: 0 3rem;
+    }
+
+    .about .row .counter .box {
+        width: 100%;
+    }
+
     #contact .sociocons {
         display: contents;
     }
