@@ -696,6 +696,10 @@ p a {
     header .navbar {
         width: 100%;
     }
+    .portfolio .box-container .box {
+        margin-bottom: 250px;
+        width: 80%;
+    }
 
 }
 
@@ -770,7 +774,7 @@ p a {
     }
 
     .portfolio .box-container .box {
-        /* width: 20rem; */
+        width: 100%;
         margin-bottom: 250px;
     }
 
