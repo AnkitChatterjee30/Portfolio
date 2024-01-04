@@ -349,11 +349,17 @@ header .navbar ul li a:hover {
 }
 
 .portfolio .box-container .box {
-    width: 35rem;
-    margin: 2rem 1rem;
+    width: 32rem;
+    margin: 4rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid #fff;
     position: relative;
+    /* overflow: hidden; */
+}
+
+.portfolio .box-container .box .boss {
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio .box-container .box span {
@@ -366,10 +372,10 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box h3 {
     font-size: 2rem;
-    color:yellow;
+    color: yellow;
     text-decoration: underline;
     padding-top: 1.5rem;
-    font-weight:bold;
+    font-weight: bold;
 
 }
 
@@ -389,6 +395,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
+    z-index: 2;
     color: #fff;
     background: var(--yellow);
 }
@@ -414,6 +421,9 @@ header .navbar ul li a:hover {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    transition: transform 0.4s ease;
+    transform-origin: 50% 50%;
+    overflow: hidden;
 }
 
 .banking,
@@ -456,8 +466,9 @@ p a {
     font-weight: 800;
 }
 
-.portfolio .box-container .box:hover img {
+.portfolio .box-container .box img:hover {
     transform: scale(1.2);
+    width: 100%;
 }
 
 .contact .row {
@@ -720,12 +731,13 @@ p a {
 }
 
 @media (max-width:400px) {
-    
+
     .vl {
         display: none;
     }
 
     .portfolio .box-container .box {
+        /* width: 20rem; */
         margin-bottom: 250px;
     }
 
