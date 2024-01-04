@@ -126,6 +126,10 @@ section {
     border-radius: 5rem;
 }
 
+.btn a {
+    color: azure;
+}
+
 .btn i {
     padding: 0 .5rem;
     font-size: 1.8rem;
@@ -134,6 +138,11 @@ section {
 .btn:hover {
     background: lightyellow;
     color: #111;
+}
+
+.btn:hover a {
+    font-weight: 800;
+    color: black;
 }
 
 .heading {
@@ -329,6 +338,8 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
+    font-weight: bold;
+    color: #13eac9;
 }
 
 .education .box-container .box p {
@@ -347,7 +358,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color: #fff;
+    color: black;
     background: var(--yellow);
 }
 
@@ -384,7 +395,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box h3 {
     font-size: 2rem;
-    color: yellow;
+    color: rgb(133, 212, 226);
     text-decoration: underline;
     padding-top: 1.5rem;
     font-weight: bold;
@@ -408,7 +419,7 @@ header .navbar ul li a:hover {
     text-align: center;
     font-size: 2rem;
     z-index: 2;
-    color: #fff;
+    color: black;
     background: var(--yellow);
 }
 
@@ -466,9 +477,9 @@ header .navbar ul li a:hover {
     margin-top: 250px;
 }
 
-p a {
+/* p a {
     color: lightgreen;
-}
+} */
 
 .coffee b,
 .multiple b,
