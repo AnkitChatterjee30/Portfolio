@@ -539,96 +539,19 @@ p a {
     display: none;
 }
 
-.ula {
-    margin-right: 50px;
+#skills .column {
+    float: left;
+    width: 22%;
+    filter: drop-shadow(1px 1px 1px azure);
+    padding: 15px;
+    margin-right: 25px;
 }
 
-.lia {
-    display: inline-block;
-    margin-right: 100px;
-    filter: drop-shadow(1px 1px 1px white);
-}
-
-.lib {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.lic {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.lid {
-    display: inline-block;
-    margin-right: 0px;
-}
-
-.lie {
-    display: inline-block;
-    margin-right: 100px;
-    filter: drop-shadow(1px 1px 1px white);
-}
-
-.lif {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.lig {
-    display: inline-block;
-    margin-right: 100px;
-    filter: drop-shadow(1px 1px 1px white);
-}
-
-.lih {
-    display: inline-block;
-    margin-right: 0px;
-    filter: drop-shadow(1px 1px 1px white);
-}
-
-
-.imgpython {
-    width: 200px;
-    height: 200px;
-}
-
-.imgjava {
-    width: 160px;
-    height: 200px;
-}
-
-.imgflask {
-    width: 220px;
-    height: 170px;
-    margin-top: -100px;
-    filter: drop-shadow(1px 1px 1px white);
-}
-
-.imghtml {
-    width: 200px;
-    height: 200px;
-}
-
-.imgcss {
-    width: 200px;
-    height: 200px;
-}
-
-
-.imgjavascript {
-    width: 200px;
-    height: 200px;
-}
-
-.imgDS {
-    width: 200px;
-    height: 120px;
-}
-
-.imgboot {
-    width: 200px;
-    height: 200px;
+/* Clearfix (clear floats) */
+#skills .row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
@@ -678,6 +601,22 @@ p a {
 }
 
 @media (max-width:768px) {
+
+    #skills .column {
+        float: left;
+        width: 42%;
+        filter: drop-shadow(1px 1px 1px azure);
+        padding: 15px;
+        margin-right: 25px;
+    }
+
+    /* Clearfix (clear floats) */
+    #skills .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
     header {
         width: 100vw;
     }
@@ -693,9 +632,11 @@ p a {
     html {
         font-size: 50%;
     }
+
     header .navbar {
         width: 100%;
     }
+
     .portfolio .box-container .box {
         margin-bottom: 250px;
         width: 80%;
@@ -704,6 +645,21 @@ p a {
 }
 
 @media(max-width:370px) {
+    #skills .column {
+        float: left;
+        width: 42%;
+        filter: drop-shadow(1px 1px 1px azure);
+        padding: 15px;
+        margin-right: 25px;
+    }
+
+    /* Clearfix (clear floats) */
+    #skills .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
     header {
         width: 100vw;
     }
@@ -719,6 +675,7 @@ p a {
     #contact .sociocons {
         display: contents;
     }
+
     header .navbar {
         width: 100%;
     }
@@ -765,10 +722,25 @@ p a {
 }
 
 @media (max-width:400px) {
+    #skills .column {
+        float: left;
+        width: 42%;
+        filter: drop-shadow(1px 1px 1px azure);
+        padding: 15px;
+        margin-right: 25px;
+    }
+
+    /* Clearfix (clear floats) */
+    #skills .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
 
     .vl {
         display: none;
     }
+
     header .navbar {
         width: 100%;
     }
@@ -826,76 +798,7 @@ p a {
     }
 
 
-    .imgpython {
-        position: absolute;
-        display: inline-block;
-        width: 150px;
-        height: 150px;
-        margin-left: -40px;
 
-    }
-
-    .imgjava {
-        position: absolute;
-        display: inline-block;
-        width: 150px;
-        height: 150px;
-
-
-    }
-
-    .imgflask {
-        position: absolute;
-        display: inline-block;
-        width: 120px;
-        height: 80px;
-        margin-top: 150px;
-        margin-left: -120px;
-    }
-
-    .imgDS {
-        position: absolute;
-        width: 100px;
-        height: 80px;
-        margin-top: 150px;
-        margin-left: -80px;
-    }
-
-    .imghtml {
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        display: inline-block;
-        margin-top: 180px;
-        margin-left: -80px;
-    }
-
-    .imgcss {
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        display: inline-block;
-        margin-top: 180px;
-        margin-left: -50px;
-    }
-
-    .imgboot {
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        display: inline-block;
-        margin-top: 320px;
-        margin-left: -180px;
-    }
-
-    .imgjavascript {
-        position: absolute;
-        width: 120px;
-        height: 120px;
-        display: inline-block;
-        margin-top: 320px;
-        margin-left: -150px;
-    }
 
     .skills {
         margin-bottom: 250px;
