@@ -341,8 +341,62 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container {
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.portfolio .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.portfolio .box-container .box span {
+    font-size: 2.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.portfolio .box-container .box h3 {
+    font-size: 2rem;
+    color:yellow;
+    text-decoration: underline;
+    padding-top: 1.5rem;
+    font-weight:bold;
+
+}
+
+.portfolio .box-container .box p {
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
+.portfolio .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+}
+
+/* .portfolio .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 2rem 0;
 }
@@ -354,7 +408,7 @@ header .navbar ul li a:hover {
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
-}
+} */
 
 .portfolio .box-container .box img {
     height: 100%;
@@ -390,8 +444,8 @@ header .navbar ul li a:hover {
     margin-top: 250px;
 }
 
-.coffee a {
-    color: yellow;
+p a {
+    color: lightgreen;
 }
 
 .coffee b,
