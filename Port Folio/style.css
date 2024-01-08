@@ -565,7 +565,7 @@ header .navbar ul li a:hover {
 #skills .column {
     float: left;
     width: 22%;
-    filter: drop-shadow(1px 1px 1px azure);
+    /* filter: drop-shadow(1px 1px 1px azure); */
     padding: 15px;
     margin-right: 25px;
 }
@@ -628,7 +628,7 @@ header .navbar ul li a:hover {
     #skills .column {
         float: left;
         width: 42%;
-        filter: drop-shadow(1px 1px 1px azure);
+        /* filter: drop-shadow(1px 1px 1px azure); */
         padding: 15px;
         margin-right: 25px;
     }
@@ -671,7 +671,7 @@ header .navbar ul li a:hover {
     #skills .column {
         float: left;
         width: 42%;
-        filter: drop-shadow(1px 1px 1px azure);
+        /* filter: drop-shadow(1px 1px 1px azure); */
         padding: 15px;
         margin-right: 25px;
     }
@@ -748,7 +748,7 @@ header .navbar ul li a:hover {
     #skills .column {
         float: left;
         width: 42%;
-        filter: drop-shadow(1px 1px 1px azure);
+        /* filter: drop-shadow(1px 1px 1px azure); */
         padding: 15px;
         margin-right: 25px;
     }
