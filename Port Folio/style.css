@@ -346,6 +346,8 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
+    text-align:justify ;
+    text-justify: inter-word;
 }
 
 .education .box-container .box i {
@@ -406,6 +408,8 @@ header .navbar ul li a:hover {
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .portfolio .box-container .box i {
