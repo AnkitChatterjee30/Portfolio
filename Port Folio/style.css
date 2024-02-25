@@ -604,6 +604,10 @@ header .navbar ul li a:hover {
     .home {
         padding: 1rem 4rem;
     }
+    .home p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
 
 }
 
@@ -666,6 +670,9 @@ header .navbar ul li a:hover {
 
     .portfolio .box-container .box {
         margin-bottom: 250px;
+        width: 80%;
+    }
+    .education .box-container .box {
         width: 80%;
     }
 
@@ -745,6 +752,9 @@ header .navbar ul li a:hover {
     .portfolio {
         margin-bottom: 100px;
     }
+    .education .box-container .box {
+        width: 80%;
+    }
 
 }
 
@@ -813,7 +823,7 @@ header .navbar ul li a:hover {
     }
 
     .education .box-container .box {
-        width: 100%;
+        width: 80%;
     }
 
     .portfolio .box-container .box {
